@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "@/styles/css/globals.css";
+import "@/styles/css/style.css";
 import { Providers } from "./provider";
 import { Sidebar } from "@/components/layouts/sidebar";
 import NextTopLoader from "nextjs-toploader";

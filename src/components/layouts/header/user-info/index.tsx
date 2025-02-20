@@ -9,16 +9,16 @@ import {
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState } from "react"; 
 import { LogOutIcon, SettingsIcon, UserIcon } from "./icons";
 
 export function UserInfo() {
   const [isOpen, setIsOpen] = useState(false);
 
   const USER = {
-    name: "John Smith",
-    email: "johnson@nextadmin.com",
-    img: "/images/user/user-03.png",
+    name: "Next Admin",
+    email: "nextz@admin.com",
+    img: "/images/user/user-0.png",
   };
 
   return (
@@ -42,7 +42,7 @@ export function UserInfo() {
               aria-hidden
               className={cn(
                 "rotate-180 transition-transform",
-                isOpen && "rotate-0",
+                isOpen && "rotate-0"
               )}
               strokeWidth={1.5}
             />
